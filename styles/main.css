@@ -77,11 +77,21 @@ h2 {
   margin-bottom: 40px;
 }
 
+.contact-page-list1 {
+  list-style: none;
+}
+
+.contact-page-list2 {
+  margin-bottom: 40px;
+}
+
 /* Footer */
 .copyright-text {
   font-size: 14px;
 }
 
-.bi-github {
-  margin-left: 20px;
+.blog-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
 }
