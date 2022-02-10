@@ -37,7 +37,6 @@ body {
 .blog-header .nav-masthead .nav-link {
   padding: 0.25rem 0;
   font-weight: 700;
-  /* color: rgba(255, 255, 255, 0.5); */
   background-color: transparent;
   border-bottom: 0.25rem solid transparent;
 }
@@ -49,7 +48,7 @@ body {
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   font-weight: 800;
-  color: #fff;
+  color: #1971c2;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -57,7 +56,7 @@ body {
 }
 
 .nav-masthead .active {
-  color: #fff;
+  color: #1971c2;
   /* font-weight: 500; */
 }
 
