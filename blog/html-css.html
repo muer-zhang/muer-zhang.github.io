@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Inter|Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      </style>
+<title>Muer's Blog</title>
+</head>
+
+
+<body class="text-left text-black bg-light bg-opacity-90 bg-inline">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column container-inline">
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-0 blog-header blog-page">Muer's blog</h3>
+          <nav
+            class="nav nav-masthead nav-blog justify-content-center float-md-end"
+          >
+            <a class="nav-link" href="/index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="blog-page.html"
+              >Blog</a>
+            <a class="nav-link" href="contact-details.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="px-3 blog-individual">
+        <h2 class="blog-title2 blog-title-inline">What does it mean to display inline vs inline blocks?
+        </h2>
+        <div class="blog-info">
+          <p class="blog-date">Feb 12, 2022</p>
+          <p class="sprint-number1">Sprint TWO</p>
+        </div>
+
+        <p class="question-answer">Inline and inline blocks are different display types of CSS. </p>
+        <p>When <strong class="css-code">display: inline</strong> is generated, it means that elements inside the box will be displayed only the content’s space without any line breaks. Height and weight don’t apply.  However, horizontal paddings and margins apply.
+        </p>
+        <p>When <strong class="css-code">display: inline-box</strong> is generated, it means that elements inside the box will looks like inline (no line breaks) and behaves like block (changeable height, width, margins and paddings).</p>
+        <P>The following examples demonstrate the difference between Inline and Inline-block boxes.
+        </P>
+        <p>The following screen shot shows the HTML codes.</p>
+          <p><img
+          src="/image/inline-image2.jpg"
+          class="inline2"
+          alt="inline example"
+          />
+        </p>
+        <p>
+         And the end product is what we can see here. 
+         <p>
+           <img
+           src="/image/inline-image1.jpg"
+           class="inline2"
+           alt="inline example"
+           /> 
+          </p>
+        </p>
+         
+        <p>However, I attempted to create some space in between the two parts to have a better layout visually.  So what if I just simply add <strong class="css-code">margin-bottom</strong>?</p>
+        <p>
+          <img
+          src="/image/inline-image3.jpg"
+          class="inline2"
+          alt="inline example"
+          /> 
+         </p> 
+        <p>Here is what it came out.</p>
+        <p>
+          <img
+          src="/image/inline-image1.jpg"
+          class="inline2"
+          alt="inline example"
+          /> 
+        </p>
+          <p>Now let’s go back and inspect why it doesn’t work. Because the ‘More Information’ part is a link, so it defaults to an inline box.  And we know that inline box cannot have its vertical margin set.</p>
+            <p>In oder to do it, we will need to make “More Information” link to become an inline-block box.</p>
+            <p>
+              <img
+          src="/image/inline-image4.jpg"
+          class="inline2"
+          alt="inline example"
+          /> </p>
+            <p>Awesome, we have now created the margins between the two parts on the display!</p>
+          <p>
+            <img
+            src="/image/inline-image5.jpg"
+            class="inline2"
+            alt="inline example"
+            />
+          </p>
+            </p>
+
+        <a href="blog-page.html" class="back-blog">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            width="24"
+            height="24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2M3 12l6.414 6.414a2 2 0 001.414.586H19a2 2 0 002-2V7a2 2 0 00-2-2h-8.172a2 2 0 00-1.414.586L3 12z"
+            />
+          </svg>
+          Return to Blog</a>
+      </main>
+
+      <footer class="mt-auto text-black-80">
+        <p class="copyright-text">Copyright &copy; 2022 by Muer Zhang</p>
+      </footer>
+      
+    </div>
+  </body>
+</html>

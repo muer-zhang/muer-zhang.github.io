@@ -176,3 +176,42 @@ body {
 p + h3 {
   margin-top: 70px;
 }
+
+/* INLINE BLOG EDIT */
+/* .container-inline {
+  display: block;
+} */
+
+.blog-title-inline {
+  font-size: 40px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  border-style: double;
+  display: inline-block;
+}
+
+/* .inline {
+  display: flex;
+} */
+
+.bg-inline {
+  background-color: #6c757d1c !important;
+}
+
+.css-code {
+  border: 2px solid #1971c2;
+}
+
+.back-blog {
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 18px;
+  text-transform: uppercase;
+  word-spacing: 3px;
+}
+
+.copyright-text {
+  text-align: center;
+}
