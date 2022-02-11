@@ -81,17 +81,18 @@ body {
   margin-bottom: 40px;
 }
 
+/* Footer */
+.copyright-text {
+  font-size: 14px;
+}
+
+/* CONTACT PAGE EDIT */
 .contact-page-list1 {
   list-style: none;
 }
 
 .contact-page-list2 {
   margin-bottom: 40px;
-}
-
-/* Footer */
-.copyright-text {
-  font-size: 14px;
 }
 
 /* Blog-Page Edit */
@@ -141,4 +142,37 @@ body {
 .blog-list {
   justify-items: start;
 }
-/* .sprint-number .click-to-read; */
+
+/* BLOG POST EDIT */
+.blog-title2 {
+  font-size: 60px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  border-style: double;
+  display: inline-block;
+}
+
+.sprint-number1 {
+  font-size: 13px;
+}
+
+.blog-info {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2%;
+}
+
+.question-header {
+  text-align: stretch;
+}
+
+.identity-answer {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+p + h3 {
+  margin-top: 70px;
+}
