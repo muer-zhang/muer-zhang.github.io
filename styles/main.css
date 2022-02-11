@@ -121,7 +121,7 @@ body {
 }
 
 .blog-type2 {
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .blog-list-1 {
@@ -178,9 +178,6 @@ p + h3 {
 }
 
 /* INLINE BLOG EDIT */
-/* .container-inline {
-  display: block;
-} */
 
 .blog-title-inline {
   font-size: 40px;
@@ -190,10 +187,6 @@ p + h3 {
   border-style: double;
   display: inline-block;
 }
-
-/* .inline {
-  display: flex;
-} */
 
 .bg-inline {
   background-color: #6c757d1c !important;
